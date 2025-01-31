@@ -3,18 +3,24 @@ body {
 }
 
 .name  {
-
+    font-family: "Oleo Script";
+    font-size: 100px;
+    
 }
 
 #cour {
     border-style: dotted;
     border-radius: 10px;
 }
+
 p {
     margin-top: 5%;
     border-style: dashed;
 }
 
+#middlerow  {
+    margin-bottom: 50px;
+}
 .images {
     list-style-type: none;
     width: 100px;
