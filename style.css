@@ -55,8 +55,36 @@ li:hover ul.dropdown {
 .my-name {
     font-family: "Oleo Script" !important;
     font-size: 100px;
-    color: rgb(33, 30, 30) !important;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 30, 30);
 }
+h1{
+    font-size: 15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 2px darkmagenta;
+    position: relative;
+}
+
+h1::before {
+    content: "Courey Jimenez";
+    position: absolute;
+    width: 0%;
+    height:100%;
+    overflow: hidden;
+    color: darkmagenta;
+    transition: 1s ease-in-out;
+}
+h1:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px darkmagenta);
+}
+
 
 .alerts-border {
     border: none;
@@ -66,7 +94,7 @@ li:hover ul.dropdown {
 
 @keyframes blink {
     50% {
-        border-color: #ed0ea2;
+        border-color: darkmagenta;
     }
 }
 
