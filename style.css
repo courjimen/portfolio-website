@@ -33,14 +33,14 @@ li ul.dropdown li {
 
 li ul.dropdown {
     width: 100%;
-    background: rgb(175, 126, 179);
+    background: rgb(224, 122, 12);
     position: absolute;
     z-index: 999;
     display: none;
 }
 
 li a:hover {
-    background: rosybrown;
+    background: rgb(188, 171, 143);
 }
 
 li:hover ul.dropdown {
