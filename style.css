@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(229, 239, 205) !important;
-
+    background-color: rgb(227, 205, 175) !important;
 }
 
 #arrow{
@@ -10,7 +9,7 @@ body {
 #header-border { 
     list-style: none;
     font-family: Georgia, Arial;
-    background: rgb(227, 205, 175);
+    background: rgb(169, 135, 91);
 }
 
 
@@ -24,7 +23,7 @@ display: block;
 padding: 20px 25px;
 text-align: center;
 font-size: 20px;
-color: rgb(125, 8, 228);
+color: rgb(220, 213, 4);
 text-decoration: none;
 }
 
@@ -116,5 +115,24 @@ p {
         font-family: monospace;
         font-size: 50px;
         color:rgb(214, 107, 13)
+    }
+    #middlerow {
+        display:inline;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .name {
+        font-size: 25px
+    }
+    #cour {
+        size: 50px
+    }
+    #middlerow {
+        margin-top: 0%;
+        margin-left: 10%;
+        display: inline;
+        text-align: center;
     }
 }
