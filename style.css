@@ -27,8 +27,25 @@ p {
     height: 100px;
 }
 
+.contact-container{
+    background-color: rgb(227, 205, 175);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
 .social {
     width:  100px;
     height: 100px;
     margin-inline: 30%;
 }
+
+
