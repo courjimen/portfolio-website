@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+}
+
+#cour {
+    border-style: dotted;
+    border-radius: 10px;
+}
+p {
+    margin-top: 5%;
+    border-style: dashed;
+}
+.images {
+    list-style-type: none;
+    width: 100px;
+    height: 100px;
+}
+
+.social {
+    width:  100px;
+    height: 100px;
+    margin-inline: 30%;
+}

@@ -1,93 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courey's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-<!-- HEADER/BIO -->
-<div class="container headerRow">
-<div class="header text-center p-5">
-  <h1 class="name">COUREY J</h1>
-  <!-- WRAP A LINK TO MY LINKEDIN OR COURCOLLABS AROUND FOTO -->
-  <img src="cour.jpg" alt="Courey's Headshot" height="150px" width="px">
-    <p> 
-      Here is my text about myself and my journey with techtonica so far.I've spent years analyzing the behaviors of people as a behavioral technician. As a copywriter, I use those same tools to create work that connects and inspires action from your readers. My originality shines through my work. I craft effective, compelling copy to elevate your brand messaging. With diverse industry experience, I create websites, social media posts, email campaigns, branded content, and more.
-    </p>
-  </div>
-</div>
 
-<!-- TRANSFERABLE SKILLS -->
-<div class="container middlerows">
-  <div class="row col-10 offset-1">
-    <div class="col">
-      <h2> TRANSFERABLE SKILLS</h2>
-      <ul>
-        <li> Techtonica</li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Courey's Portfolio</title>
+
+</head>
+
+<body>
+  <!-- HEADER/BIO -->
+  <div class="container headerRow">
+    <div class="header text-center p-5">
+      <h1 class="name">COUREY J</h1>
+      <!-- WRAP A LINK TO MY LINKEDIN OR COURCOLLABS AROUND FOTO -->
+      <img id="cour" src="./Images/cour.jpg" alt="Courey's Headshot" height="250px">
+      <p>
+        Here is my text about myself and my journey with techtonica so far.I've spent years analyzing the behaviors of
+        people as a behavioral technician. As a copywriter, I use those same tools to create work that connects and
+        inspires action from your readers. My originality shines through my work. I craft effective, compelling copy to
+        elevate your brand messaging. With diverse industry experience, I create websites, social media posts, email
+        campaigns, branded content, and more.
+      </p>
+    </div>
+  </div>
+
+  <!-- TRANSFERABLE SKILLS -->
+  <div class="container middlerows">
+    <div class="row col-10 offset-1">
+      <div class="col">
+        <h3> TRANSFERABLE SKILLS</h3>
+        <ul>
+          <li> Techtonica</li>
           <ul>
             <li>Insert experiences, projects, etc.</li>
           </ul>
-        <li>Copywriting</li>
+          <li>Copywriting</li>
           <ul>
             <li>Website Design (WIX)</li>
             <li>Collaboration (Campaigns)</li>
             <li>Project management</li>
             <li>Figma</li>
           </ul>
-        <li> Behavioral Technician </li>
+          <li> Behavioral Technician </li>
           <ul>
             <li> analyzing human behaviors</li>
             <li>problem solving skills</li>
             <li>adaptability</li>
-          </ul> 
+          </ul>
         </ul>
-    </div>
-<!-- MIDDLE COLUMN -->
-    <div class="col">
-      <H2>LET'S CONNECT: SOCIALS</H2>
-        <UL>
-          <li>GitHub</li>
+      </div>
+      <!-- MIDDLE COLUMN -->
+      <div class="col">
+        <h3>LET'S CONNECT</h3>
+        <ul>
+          <li> GitHub </li>
           <li>LinkedIn</li>
           <li>Instagram</li>
           <li>CourCollabs</li>
-        </UL>
-    </div>
-
-<!-- LEFT COLUMN -->
-    <div class="col">
-      <H2>CONTACT ME</H2>
-         <UL>
+        </ul>
+      </div>
+      <!-- LEFT COLUMN -->
+      <div class="col">
+        <h3>CONTACT ME</h3>
+        <ul>
           <li>Phone: 000-000-0000</li>
+          <img class="images" src="./Images/number.jpg">
+
           <li>Email: courcollabs@gmail.com</li>
-        </UL>
+          <img class="images" src="./Images/email.jpg">
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- CONTACT FORM -->
- <div class="container row text-center">
-  <div class="row">
+  <!-- CONTACT FORM -->
+  <div class="container row text-center">
+    <div class="row">
       <form>
-
-        <label for="name">Name:</label>
+        <label for="name" required>Name:</label>
         <input type="text" id="name" name="name" placeholder="Insert Your Name">
 
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="Insert Your Email">
+        <label for="email" required>Email:</label>
+        <input type="text" id="email" name="email" placeholder="Insert@email.com">
+
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" name="number" placeholder="000-000-0000">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Insert Your Address">
       </form>
     </div>
- 
-
   </div>
- </div>
-
   
-
+  <!-- SOCIAL LOGO LINKS -->
+    <img class="social" src="./Images/tangithub.png"> <img class="social" src="./Images/goldlinkedin.png">
    
+    
+    
+    
 
-
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
