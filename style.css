@@ -2,6 +2,15 @@ body {
     background-color: whitesmoke;
 }
 
+#arrow{
+    width: 40px;
+}
+
+ul {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .name  {
     font-family: "Oleo Script";
     font-size: 100px;
@@ -16,6 +25,16 @@ body {
 p {
     margin-top: 5%;
     border-style: dashed;
+    font-family: fantasy;
+}
+abbr {
+    color: chocolate;
+}
+@media (hover: hover) {
+    abbr:hover {
+        color: hotpink;
+        transition-duration: 2s;
+    }
 }
 
 #middlerow  {
@@ -29,7 +48,8 @@ p {
 
 .contact-container{
     background-color: rgb(227, 205, 175);
-    height: 100vh;
+    height: auto;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -13,6 +13,20 @@
 </head>
 
 <body>
+  <!--DROPDOWN MENU -->
+  <ul>
+    <li>
+      <a href="#">Home</a>
+    </li>
+
+    <li>
+      <a href="#">Contact Me <img src="./Images/arrow3.png" id="arrow"></a>
+    <ul class="dropdown">
+      <li>Phone: 248-679-2615</li>
+      <li>Email: courcollabs@gmail.com</li>
+    </ul>
+    </li>
+  </ul>
   <!-- HEADER/BIO -->
   <div class="container headerRow">
     <div class="header text-center p-5">
@@ -22,7 +36,8 @@
       <p>
         Here is my text about myself and my journey with techtonica so far.I've spent years analyzing the behaviors of
         people as a behavioral technician. As a copywriter, I use those same tools to create work that connects and
-        inspires action from your readers. My originality shines through my work. I craft effective, compelling copy to
+        inspires action from your readers. My originality <abrr>shines</abrr> through my work. I craft effective,
+        compelling copy to
         elevate your brand messaging. <strong>With diverse industry experience</strong> I create websites, social media
         posts, email
         campaigns, branded content, and more.
@@ -64,57 +79,46 @@
         <li>CourCollabs</li>
       </ul>
     </div>
-    <div class="w-100"></div>
+  </div>
+  <!-- CONTACT FORM -->
 
-    <!-- BOTTOM LEFT COLUMN -->
-    <div class="col">
+  <div class="contact-container col-2">
+
+    <form action="" class="contact">
+      <div class="contact-title">
+        <h2>Let's Chat!</h2>
+        <hr>
+      </div>
+
+      <label for="name" required>Name:</label>
+      <input type="text" id="name" name="name" placeholder="Insert Your Name" class="contact-inputs">
+
+      <label for="email" required>Email:</label>
+      <input type="email" id="email" name="email" placeholder="Insert@email.com">
+
+      <label for="number">Phone Number:</label>
+      <input type="text" id="number" name="number" placeholder="000-000-0000">
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="Insert Your Address">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
       <h3>CONTACT ME</h3>
       <img class="images" src="./Images/number.jpg">
       <img class="images" src="./Images/email.jpg">
-      </ul>
     </div>
-    <!-- BOTTOM RIGHT COLUMN -->
-    <div class="col">
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- CONTACT FORM -->
-    <div class="contact-container col-3">
-      <form action="" class="contact">
-        <div class="contact-title">
-          <h2>Let's Chat!</h2>
-          <hr>
-        </div>
-
-        <label for="name" required>Name:</label>
-        <input type="text" id="name" name="name" placeholder="Insert Your Name" class="contact-inputs">
-
-        <label for="email" required>Email:</label>
-        <input type="email" id="email" name="email" placeholder="Insert@email.com">
-
-        <label for="number">Phone Number:</label>
-        <input type="text" id="number" name="number" placeholder="000-000-0000">
-
-        <label for="address">Address:</label>
-        <input type="text" id="address" name="address" placeholder="Insert Your Address">
-        <button type="submit">Submit <img src="./Images/yay.png"> </button>
-      </form>
-    </div>
+  </div>
+  </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
