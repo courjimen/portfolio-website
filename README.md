@@ -9,5 +9,8 @@ This project utililizes VS Code (Microsoft Software Licensing).
 
 Set Up Instructions to View My Portfolio:
 
-1. Clone my repo (using git clone)
-2. Paste my https link in your terminal
+1. Clone my repo by navigating to the main page of my github repository
+2. Click code to copy my repo URL (I use https and click the copy icon)
+3. Open your terminal and type the following command git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+4. Then press enter and voila! Open my repo in  VSCode and open the index.html  file
+5. Now right click anywhere on my html file and open live server (if you don't have it already please download this extension) 
